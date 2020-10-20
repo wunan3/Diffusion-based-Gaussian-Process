@@ -1,0 +1,23 @@
+Generate 1500 unlabeled points on the spiral
+
+theta0=rand([1500,1]);
+theta=8*pi*theta0
+x0=(theta+4*ones(1500,1)).^0.7.*cos(theta); 
+y0=(theta+4*ones(1500,1)).^0.7.*sin(theta);
+X=[x0 y0]
+
+Generate 60 labeled points on the spiral
+
+theta1=rand([60,1]);
+theta2=8*pi*theta1
+x1=(theta2+4*ones(60,1)).^0.7.*cos(theta2); 
+y1=(theta2+4*ones(60,1)).^0.7.*sin(theta2);
+X1=[x1 y1]
+
+Observation over the labeled points with error
+
+eta=normrnd(0,1,[60,1]);
+y=3*sin(0.1*theta2)+3*cos(0.5*theta2)+4*sin(0.8*theta2)+eta;
+
+Ground truth over the unlabeled points
+f=3*sin(0.1*theta)+3*cos(0.5*theta)+4*sin(0.8*theta);
