@@ -9,7 +9,7 @@ the Matlab code of the DB-GP for predictions
 
 2. Gulf of California.mat
 
-the dataset in the Gulf of California example. The original resource of dataset is "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chlamday.graph"
+the dataset in the Gulf of California example. The original resource of the dataset is "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chlamday.graph"
 
 3. Gulf of California.txt
 
@@ -17,7 +17,7 @@ explanation of the variables in the dataset " Gulf of California.mat".
 
 4. long island.mat
 
-the dataset in the Long Island example. The original resource of dataset is "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chlamday.graph"
+the dataset in the Long Island example. The original resource of the dataset is "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chlamday.graph"
 
 5. long island.txt
 
