@@ -9,11 +9,11 @@ The Matlab code of the GL-GP for predictions.
 
 2. Nys.m
 
-The code of Nystrom type extension. Suppose the GL-GP covariance parameters are determined by a small number of labeled points, the corresponding response variables, and a small number of unlabelled points. Nys.m can extend the prediction to a large number of unlabel points without determing the GL-GP paramters again. 
+The code of Nystrom type extension. Suppose the GL-GP covariance parameters are determined by a small number of labeled points, the corresponding response variables, and a small number of unlabelled points. Nys.m can extend the prediction to a large number of unlabeled points without determining the GL-GP parameters again. 
 
 3. hand.mat
 
-The dataset in Raynauld disease example. 
+The dataset in the Raynauld disease example. 
 
 4. hand.txt
 
