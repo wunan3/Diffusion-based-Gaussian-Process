@@ -1,0 +1,4 @@
+X: unlabeled points in the hand
+X1: labeled points in the hand
+y: observations over labeled points
+Y: ground truth over unlabeled points
