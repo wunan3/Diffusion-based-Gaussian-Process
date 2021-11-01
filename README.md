@@ -1,40 +1,36 @@
 # Diffusion-based-Gaussian-Process
-This is the code of the Diffusion-based Gaussian Process(DB-GP) algorithm and the datasets in the paper "DIFFUSION BASED GAUSSIAN PROCESSES ON RESTRICTED DOMAINS" by David B Dunson, Hau-Tieng Wu and Nan Wu
+This is the code of the Graph Laplacian based Gaussian Process(GL-GP) algorithm and the datasets in the paper "GRAPH BASED GAUSSIAN PROCESSES ON RESTRICTED DOMAINS" by David B Dunson, Hau-Tieng Wu and Nan Wu
 
 Explanation to files 
 
 1.CovMatrix.m
 
-the Matlab code of the DB-GP for predictions
+The Matlab code of the GL-GP for predictions.
 
-2. Gulf of California.mat
+2. Nys.m
 
-the dataset in the Gulf of California example. The original resource of the dataset is "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chlamday.graph"
+The code of Nystrom type extension. Suppose the GL-GP covariance parameters are determined by a small number of labeled points, the corresponding response variables, and a small number of unlabelled points. Nys.m can extend the prediction to a large number of unlabel points without determing the GL-GP paramters again. 
 
-3. Gulf of California.txt
+2. hand.mat
 
-explanation of the variables in the dataset " Gulf of California.mat".
+The dataset in Raynauld disease example. 
 
-4. long island.mat
+3. hand.txt
 
-the dataset in the Long Island example. The original resource of the dataset is "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chlamday.graph"
+The explanation of the variables in the dataset "hand.mat".
 
-5. long island.txt
+4. spiral example.txt
 
-explanation of the variables in the dataset "long island.mat.mat"
+The Matlab code to generate a random dataset and a regression function on a spiral in R^2.
 
-6. spiral example.txt
+5. spiral.mat
 
-the Matlab code to generate a random dataset and a regression function on a spiral in R^2.
-
-7. spiral.mat
-
-the dataset on the spiral that we use in the paper.
+The dataset on the spiral that we use in the paper.
 
 6. two spheres example.txt
 
-the Matlab code to generate a random dataset and a regression function on the spheres example in R^3.
+The Matlab code to generate a random dataset and a regression function on the spheres example in R^3.
 
 7. two spheres.mat
 
-the dataset on the two spheres example that we use in the paper.
+The dataset on the two spheres example that we use in the paper.
