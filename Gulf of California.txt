@@ -1,4 +1,0 @@
-X: unlabeled positions in the Gulf of California
-X1: labeled positions in the Gulf of California
-y: observations captured by sensors MODIS in the Aqua satellites over labeled points
-Y: observations captured by sensors MODIS in the Aqua satellites over unlabeled points
