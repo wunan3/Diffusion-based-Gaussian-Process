@@ -1,0 +1,4 @@
+X: unlabeled points on the 3D scan of the hand;
+X1: labeled points on the 3D scan of the hand;
+y: observations over labeled points;
+Y: ground truth over unlabeled points;
