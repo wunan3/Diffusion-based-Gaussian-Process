@@ -1,4 +1,4 @@
-# Diffusion-based-Gaussian-Process
+# Graph Laplacian based Gaussian Process
 These are the codes of the Graph Laplacian based Gaussian Process(GL-GP) algorithm and the datasets in the paper "GRAPH BASED GAUSSIAN PROCESSES ON RESTRICTED DOMAINS" by David B Dunson, Hau-Tieng Wu and Nan Wu
 
 Explanation to files 
