@@ -34,3 +34,8 @@ The Matlab code to generate a random dataset and a regression function on the sp
 8. two spheres.mat
 
 The dataset on the two spheres example that we use in the paper.
+
+
+Acknowledgement 
+
+David B Dunson and Nan Wu are supported by the Lifeplan project.  The Lifeplan project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation  programme (grant agreement No 856506).
